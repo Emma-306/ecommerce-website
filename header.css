@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    z-index: 100;
+}
+.header-one{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    padding: 10px 10px;
+}
+
+.header-one p{
+    color: white;
+    margin-right: 250px;
+    margin-left: 200px;
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header-one p a{
+    color: white;
+    font-size: medium;
+}
+#language{
+    width: 100px;
+    height: 30px;
+    background-color: transparent;
+    color: white;
+    border: none;
+}
+.header-two{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    border-bottom: 2px solid rgb(207, 207, 207);
+    padding-bottom: 15px;
+    height: 100px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.header-two .headings{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.header-two p{
+    margin-left: 100px;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.headings h1{
+    font-size: 20px;
+    margin-right: 40px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.search{
+    margin-right: 90px;
+    position: relative;
+}
+
+.search input{
+    width: 200px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    border-radius: 5px;
+    border:none;
+    background-color: whitesmoke;
+}
+.search button{
+    position: absolute;
+    right: 4px;
+    top: 0;
+    bottom: 0;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.search button img{
+    width: 20px;
+    height: 20px;
+}
