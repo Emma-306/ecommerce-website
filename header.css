@@ -9,6 +9,10 @@
     background-color: white;
     z-index: 100;
 }
+.headings h1 a{
+    text-decoration: none;
+    color: black;
+}
 .header-one{
     display: flex;
     flex-direction: row;
